@@ -38,7 +38,7 @@ question_turn = "player1";
 answer_turn = "player2";
 
 function check(){
-    get_answer = document.getElementById("output").value;
+    get_answer = document.getElementById("input_check_box").value;
     if(get_answer == actual_answer){
         player1_score = player1_score + 1;
         document.getElementById("player1_score").innerHTML = player1_score;
